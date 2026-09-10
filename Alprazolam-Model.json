@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -616,17 +616,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -745,17 +745,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -918,7 +918,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -2757,7 +2757,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kroboth1988_IV_0.5mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kroboth1988_IV_0.5mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kroboth 1988 - 0.5 mg/2 min - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=4)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kroboth 1988 - 0.5 mg/2 min - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Kroboth 1988 - 0.5 mg/2 min - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nKroboth1988_IV_0.5mg\n2020-03-25 13:24"
+        }
+      ]
     },
     {
       "Name": "Kroboth1988_IV_2mg",
@@ -3095,7 +3164,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kroboth1988_IV_2mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kroboth1988_IV_2mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kroboth 1988 - 2.0 mg/2 min - Alprazolam - IV - 2 mg - Plasma - agg. (n=4)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kroboth 1988 - 2.0 mg/2 min - Alprazolam - IV - 2 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Kroboth 1988 - 2.0 mg/2 min - Alprazolam - IV - 2 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nKroboth1988_IV_2mg\n2020-03-25 13:27"
+        }
+      ]
     },
     {
       "Name": "Kroboth1988_IV_1mg_0.576mg_over8h",
@@ -3439,7 +3577,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kroboth1988_IV_1mg_0.576mg_over8h-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kroboth1988_IV_1mg_0.576mg_over8h|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kroboth 1988 - 1.0 mg/2 min, then 72 µg/hr for 8 hours - Alprazolam - IV - 1.576 mg - Plasma - agg. (n=4)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kroboth 1988 - 1.0 mg/2 min, then 72 µg/hr for 8 hours - Alprazolam - IV - 1.576 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Kroboth 1988 - 1.0 mg/2 min, then 72 µg/hr for 8 hours - Alprazolam - IV - 1.576 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nKroboth1988_IV_1mg+0.576mg\n2020-03-25 13:24"
+        }
+      ]
     },
     {
       "Name": "Adams1984_IV_0.25mg",
@@ -3777,7 +3984,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Adams1984_IV_0.25mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Adams1984_IV_0.25mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Adams 1984 - 0.25 mg, Individual 1 - Alprazolam - IV - 0.25 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Adams 1984 - 0.25 mg, Individual 1 - Alprazolam - IV - 0.25 mg - Plasma - indiv.|Time",
+              "Y": "Adams 1984 - 0.25 mg, Individual 1 - Alprazolam - IV - 0.25 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Adams 1984 - 0.25 mg, Individual 2 - Alprazolam - IV - 0.25 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Adams 1984 - 0.25 mg, Individual 2 - Alprazolam - IV - 0.25 mg - Plasma - indiv.|Time",
+              "Y": "Adams 1984 - 0.25 mg, Individual 2 - Alprazolam - IV - 0.25 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#4BACC6",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nAdams1984_IV_0.25mg\n2020-03-25 13:22"
+        }
+      ]
     },
     {
       "Name": "Adams1984_IV_4mg",
@@ -4121,7 +4408,98 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Adams1984_IV_4mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Adams1984_IV_4mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Adams 1984 - 4 mg, Individual 1 - Alprazolam - IV - 4 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Adams 1984 - 4 mg, Individual 1 - Alprazolam - IV - 4 mg - Plasma - indiv.|Time",
+              "Y": "Adams 1984 - 4 mg, Individual 1 - Alprazolam - IV - 4 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Adams 1984 - 4 mg, Individual 2 - Alprazolam - IV - 4 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Adams 1984 - 4 mg, Individual 2 - Alprazolam - IV - 4 mg - Plasma - indiv.|Time",
+              "Y": "Adams 1984 - 4 mg, Individual 2 - Alprazolam - IV - 4 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#92CDDC",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Adams 1984 - 4 mg, Individual 3 - Alprazolam - IV - 4 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Adams 1984 - 4 mg, Individual 3 - Alprazolam - IV - 4 mg - Plasma - indiv.|Time",
+              "Y": "Adams 1984 - 4 mg, Individual 3 - Alprazolam - IV - 4 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#31859B",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nAdams1984_IV_4mg\n2020-03-25 13:22"
+        }
+      ]
     },
     {
       "Name": "Fleishaker1989_IV_1mg",
@@ -4459,7 +4837,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fleishaker1989_IV_1mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Fleishaker1989_IV_1mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fleishaker 1989 - Treatment A (IV administration) - Alprazolam - IV - 1 mg - Plasma - agg. (n=42)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Fleishaker 1989 - Treatment A (IV administration) - Alprazolam - IV - 1 mg - Plasma - agg. (n=42)|Time",
+              "Y": "Fleishaker 1989 - Treatment A (IV administration) - Alprazolam - IV - 1 mg - Plasma - agg. (n=42)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nFleishaker1989_IV_1mg\n2020-03-25 13:23"
+        }
+      ]
     },
     {
       "Name": "Lin1988_IV_0.5mg",
@@ -4797,7 +5244,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Lin1988_IV_0.5mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Lin1988_IV_0.5mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lin 1988 - IV administration, Caucasian subjects - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=14)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lin 1988 - IV administration, Caucasian subjects - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Lin 1988 - IV administration, Caucasian subjects - Alprazolam - IV - 0.5 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nLin1988_IV_0.5mg\n2020-03-25 13:32"
+        }
+      ]
     },
     {
       "Name": "Smith1984_IV_1mg",
@@ -5135,7 +5651,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Smith1984_IV_1mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Smith1984_IV_1mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Smith 1984 - IV administration - Alprazolam - IV - 1 mg - Plasma - agg. (n=6)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Smith 1984 - IV administration - Alprazolam - IV - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Smith 1984 - IV administration - Alprazolam - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nSmith1984_IV_1mg\n2020-03-25 13:32"
+        }
+      ]
     },
     {
       "Name": "Venkatakrishnan2005_IV_1mg",
@@ -5473,7 +6058,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Venkatakrishnan2005_IV_1mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Venkatakrishnan2005_IV_1mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Venkatakrishnan 2005 - Alprazolam - Alprazolam - IV - 1 mg - Plasma - agg. (n=9)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Venkatakrishnan 2005 - Alprazolam - Alprazolam - IV - 1 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Venkatakrishnan 2005 - Alprazolam - Alprazolam - IV - 1 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nVenkatakrishnan2005_IV_1mg\n2020-03-25 13:33"
+        }
+      ]
     },
     {
       "Name": "Bertz1997_IV_2mg",
@@ -5811,7 +6465,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Bertz1997_IV_2mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bertz1997_IV_2mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bertz 1997 - 2 mg, young subjects - Alprazolam - IV - 2 mg - Plasma - agg. (n=25)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bertz 1997 - 2 mg, young subjects - Alprazolam - IV - 2 mg - Plasma - agg. (n=25)|Time",
+              "Y": "Bertz 1997 - 2 mg, young subjects - Alprazolam - IV - 2 mg - Plasma - agg. (n=25)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nBertz1997_IV_2mg\n2020-03-25 13:23"
+        }
+      ]
     },
     {
       "Name": "PO_0.5mg",
@@ -6151,7 +6874,173 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.0,
+              "Max": 38.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0005,
+              "Max": 0.01,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_0.5mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_0.5mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_0.5mg\n2020-03-25 13:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.0,
+              "Max": 38.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.01,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_0.5mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_0.5mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Lin 1988 - Oral administration, Caucasian subjects - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Schmith 1991 - Normal subjects 0.5 mg - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_0.5mg\n2020-03-25 13:20"
+        }
+      ]
     },
     {
       "Name": "PO_1mg",
@@ -6551,7 +7440,391 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1485098,
+              "Max": 47.31731,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0008960189,
+              "Max": 0.01721179,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_1mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_1mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Eller 1990 - Treatment C (fasting IR) - PO - 1 mg - Plasma - agg. (n=21)-ArithmeticMean",
+              "X": "Eller 1990 - Treatment C (fasting IR) - Alprazolam - PO - 1 mg - Plasma - agg. (n=21)|Time",
+              "Y": "Eller 1990 - Treatment C (fasting IR) - Alprazolam - PO - 1 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#8080FF",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Friedman 1991 - Alprazolam group - PO - 1 mg - Plasma - agg. (n=22)-ArithmeticMean",
+              "X": "Friedman 1991 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Friedman 1991 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C0C000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1988 - Alprazolam group - PO - 1 mg - Plasma - agg. (n=12)-ArithmeticMean",
+              "X": "Greenblatt 1988 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Greenblatt 1988 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1992 - Alprazolam group, Placebo first - PO - 1 mg - Plasma - agg. (n=11)-ArithmeticMean",
+              "X": "Greenblatt 1992 - Alprazolam group, Placebo first, Fluoxetine second - Alprazolam - PO - 1 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Greenblatt 1992 - Alprazolam group, Placebo first, Fluoxetine second - Alprazolam - PO - 1 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1998b - Alprazolam alone (Trial A) - PO - 1 mg - Plasma - agg. (n=7)-ArithmeticMean",
+              "X": "Greenblatt 1998b - Alprazolam alone (Trial A) - Alprazolam - PO - 1 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Greenblatt 1998b - Alprazolam alone (Trial A) - Alprazolam - PO - 1 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Juhl 1984 - Healthy control group - PO - 1 mg - Plasma - agg. (n=17)-ArithmeticMean",
+              "X": "Juhl 1984 - Healthy control group - Alprazolam - PO - 1 mg - Plasma - agg. (n=17)|Time",
+              "Y": "Juhl 1984 - Healthy control group - Alprazolam - PO - 1 mg - Plasma - agg. (n=17)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 2000 - Control - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Greenblatt 2000 - Control - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Greenblatt 2000 - Control - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kaplan 1998 - Young - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Kaplan 1998 - Young - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kaplan 1998 - Young - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kirkwood 1991 - Men - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Kirkwood 1991 - Men - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kirkwood 1991 - Men - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schmider 1999 - Alprazolam alone - PO - 1 mg - Plasma - agg. (n=9)-ArithmeticMean",
+              "X": "Schmider 1999 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Schmider 1999 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Smith 1984 - Oral administration - PO - 1 mg - Plasma - agg. (n=6)-ArithmeticMean",
+              "X": "Smith 1984 - Oral administration - Alprazolam - PO - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Smith 1984 - Oral administration - Alprazolam - PO - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Wennerholm 2005 - PO - 1 mg - Plasma - agg. (n=12)-ArithmeticMean",
+              "X": "Wennerholm 2005 - Figure 1 - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Wennerholm 2005 - Figure 1 - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_1mg\n2020-03-25 13:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.5,
+              "Max": 74.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.0002563945,
+              "Max": 0.022,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_1mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_1mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Wennerholm 2005 - Figure 1 - PO - 1 mg - Plasma - agg. (n=12)-ArithmeticMean",
+              "X": "Wennerholm 2005 - Figure 1 - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Wennerholm 2005 - Figure 1 - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#8080FF",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Smith 1984 - Oral administration - PO - 1 mg - Plasma - agg. (n=6)-ArithmeticMean",
+              "X": "Smith 1984 - Oral administration - Alprazolam - PO - 1 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Smith 1984 - Oral administration - Alprazolam - PO - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C0C000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schmider 1999 - Alprazolam alone - PO - 1 mg - Plasma - agg. (n=9)-ArithmeticMean",
+              "X": "Schmider 1999 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Schmider 1999 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#808080",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kirkwood 1991 - Men - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Kirkwood 1991 - Men - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kirkwood 1991 - Men - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Kaplan 1998 - Young - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Kaplan 1998 - Young - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kaplan 1998 - Young - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Juhl 1984 - Healthy control group - PO - 1 mg - Plasma - agg. (n=17)-ArithmeticMean",
+              "X": "Juhl 1984 - Healthy control group - Alprazolam - PO - 1 mg - Plasma - agg. (n=17)|Time",
+              "Y": "Juhl 1984 - Healthy control group - Alprazolam - PO - 1 mg - Plasma - agg. (n=17)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 2000 - Control - PO - 1 mg - Plasma - agg. (n=8)-ArithmeticMean",
+              "X": "Greenblatt 2000 - Control - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Greenblatt 2000 - Control - Alprazolam - PO - 1 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1998b - Alprazolam alone (Trial A) - PO - 1 mg - Plasma - agg. (n=7)-ArithmeticMean",
+              "X": "Greenblatt 1998b - Alprazolam alone (Trial A) - Alprazolam - PO - 1 mg - Plasma - agg. (n=7)|Time",
+              "Y": "Greenblatt 1998b - Alprazolam alone (Trial A) - Alprazolam - PO - 1 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1992 - Alprazolam group, Placebo first - PO - 1 mg - Plasma - agg. (n=11)-ArithmeticMean",
+              "X": "Greenblatt 1992 - Alprazolam group, Placebo first, Fluoxetine second - Alprazolam - PO - 1 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Greenblatt 1992 - Alprazolam group, Placebo first, Fluoxetine second - Alprazolam - PO - 1 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Greenblatt 1988 - Alprazolam group - PO - 1 mg - Plasma - agg. (n=12)-ArithmeticMean",
+              "X": "Greenblatt 1988 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Greenblatt 1988 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Friedman 1991 - Alprazolam group - PO - 1 mg - Plasma - agg. (n=22)-ArithmeticMean",
+              "X": "Friedman 1991 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Friedman 1991 - Alprazolam group - Alprazolam - PO - 1 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Eller 1990 - Treatment C (fasting IR) - PO - 1 mg - Plasma - agg. (n=21)-ArithmeticMean",
+              "X": "Eller 1990 - Treatment C (fasting IR) - Alprazolam - PO - 1 mg - Plasma - agg. (n=21)|Time",
+              "Y": "Eller 1990 - Treatment C (fasting IR) - Alprazolam - PO - 1 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_1mg\n2020-03-25 13:21"
+        }
+      ]
     },
     {
       "Name": "PO_2mg",
@@ -6892,7 +8165,217 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_2mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_2mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_2mg\n2020-03-25 13:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.0,
+              "Max": 50.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.034,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_2mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_2mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Schmith 1991 - Normal subjects 2 mg - Alprazolam - PO - 2 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_2mg\n2020-03-25 13:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.22,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_2mg-Alprazolam-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "PO_2mg|Organism|Kidney|Urine|Alprazolam|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Eberts 1980 - 14C-Alprazolam - Alprazolam - PO - 2 mg - Urine - agg. (n=6)-Alprazolam-Kidney-Urine-ArithmeticMean",
+              "X": "Eberts 1980 - 14C-Alprazolam - Alprazolam - PO - 2 mg - Urine - agg. (n=6)|Time",
+              "Y": "Eberts 1980 - 14C-Alprazolam - Alprazolam - PO - 2 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 2",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_2mg\n2020-03-25 13:21"
+        }
+      ]
     },
     {
       "Name": "PO_0.8mg",
@@ -7238,7 +8721,191 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1270281,
+              "Max": 47.92297,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0006688835,
+              "Max": 0.01353448,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_0.8mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_0.8mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_0.8mg\n2020-03-25 13:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_0.8mg-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_0.8mg|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Yasui 1996 - Treatment with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Yasui 2000 - Alprazolam with water - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_0.8mg\n2020-03-25 13:20"
+        }
+      ]
     },
     {
       "Name": "PO_Fleishaker1994",
@@ -7878,7 +9545,143 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_Fleishaker1994-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_Fleishaker1994|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_Fleishaker1994_Solanax\n2020-03-25 14:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "mg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO_Fleishaker1994-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO_Fleishaker1994|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Fleishaker 1994 - Alprazolam alone - Alprazolam - PO - 1 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Alprazolam\nPO_Fleishaker1994_Solanax\n2020-03-25 14:58"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -7914,12 +9717,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -7939,7 +9742,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -8309,7 +10112,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "Unit": "min",
               "ValueOrigin": {}
             },
@@ -8361,7 +10164,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-05,
+              "Value": 1e-05,
               "Unit": "min",
               "ValueOrigin": {}
             },
@@ -8695,7 +10498,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
@@ -8735,7 +10538,7 @@
             },
             {
               "Name": "MinValue",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
