@@ -1,6 +1,7 @@
 {
   "Name": "Alprazolam-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -16776,6 +16777,5 @@
         "PO_Fleishaker1994"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
