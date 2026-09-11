@@ -2489,12 +2489,6 @@
           }
         },
         {
-          "Path": "Events|IV_0.5mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -2896,12 +2890,6 @@
           }
         },
         {
-          "Path": "Events|IV_2mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -3301,18 +3289,6 @@
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
           }
-        },
-        {
-          "Path": "Events|IV_1mg_2min_0.576mg_8h|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|IV_1mg_2min_0.576mg_8h|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 8.0,
-          "Unit": "h",
-          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
@@ -4569,12 +4545,6 @@
           }
         },
         {
-          "Path": "Events|IV_1mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 1.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -4974,12 +4944,6 @@
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
           }
-        },
-        {
-          "Path": "Events|IV_0.5mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 1.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
@@ -5383,12 +5347,6 @@
           }
         },
         {
-          "Path": "Events|IV_1mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 1.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -5788,12 +5746,6 @@
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
           }
-        },
-        {
-          "Path": "Events|IV_1mg_30min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
@@ -6197,12 +6149,6 @@
           }
         },
         {
-          "Path": "Events|IV_2mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -6594,12 +6540,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO_0.5mg|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
@@ -7110,12 +7050,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO_1mg|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
@@ -7885,12 +7819,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO_2mg|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
           "Unit": "cm/min",
@@ -8436,12 +8364,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO_0.8mg|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
@@ -9180,102 +9102,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO_Fleishaker 1994 - Alprazolam 1 mg QID 4 days|Solanax|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
           "Value": 0.2587408658,
