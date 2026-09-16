@@ -2741,16 +2741,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
-        {
           "Path": "Events|IV_0.5mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
           "Unit": "min",
@@ -2934,16 +2924,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
-        {
           "Path": "Events|IV_2mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
           "Unit": "min",
@@ -3126,16 +3106,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
         {
           "Path": "Events|IV_1mg_2min_0.576mg_8h|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
@@ -3323,18 +3293,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
         }
       ],
       "OutputSelections": [
@@ -3528,18 +3486,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
         }
       ],
       "OutputSelections": [
@@ -3751,16 +3697,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
-        {
           "Path": "Events|IV_1mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 1.0,
           "Unit": "min",
@@ -3943,16 +3879,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
         {
           "Path": "Events|IV_0.5mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 1.0,
@@ -4137,16 +4063,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
-        {
           "Path": "Events|IV_1mg_1min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 1.0,
           "Unit": "min",
@@ -4330,16 +4246,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
-        {
           "Path": "Events|IV_1mg_30min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
           "Unit": "min",
@@ -4522,16 +4428,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Alprazolam|Intestinal permeability (transcellular)",
-          "Value": 0.4575114982,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 3.2' on 2020-03-25 12:52"
-          }
-        },
         {
           "Path": "Events|IV_2mg_2min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 2.0,
